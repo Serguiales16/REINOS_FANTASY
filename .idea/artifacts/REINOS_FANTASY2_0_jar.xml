@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="REINOS_FANTASY2.0:jar">
+    <output-path>$USER_HOME$/Downloads</output-path>
+    <root id="archive" name="REINOS_FANTASY2.0.jar">
+      <element id="module-output" name="REINOS_FANTASY2.0" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/mysql-connector-j-9.2.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
