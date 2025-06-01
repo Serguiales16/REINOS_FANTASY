@@ -38,7 +38,7 @@ public class Main {
                 stmt.setString(1, email);
                 stmt.setString(2, contrasena);
 
-                ResultSet rs = stmt.executeQuery();
+             git push -u origin master   ResultSet rs = stmt.executeQuery();
 
                 if (rs.next()) {
                     JOptionPane.showMessageDialog(null, "Inicio de sesión correcto. Bienvenido " + rs.getString("nombre_usuario"));
